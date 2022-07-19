@@ -34,7 +34,7 @@ const Blogs = (props) => {
 
 export async function getServerSideProps(context) {
 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/allBlogs`)
+    const res = await fetch(`${process.env.HOST}/api/allBlogs`)
     const data = await res.json()
 
     data.reverse()

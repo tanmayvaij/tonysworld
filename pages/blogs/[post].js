@@ -6,7 +6,7 @@ import styles from "../../styles/Post.module.css"
 const Post = (props) => {
 
     const { data } = props
-    
+
     return (
         <div className={styles.Post}>
 
@@ -42,7 +42,7 @@ const Post = (props) => {
 export async function getServerSideProps(context) {
 
     const { post } = context.query 
-    const res = await fetch(`${process.env.NEXT_PUBLIC_HOST}/api/blogpost?post=${post}`)
+    const res = await fetch(`${process.env.HOST}/api/blogpost?post=${post}`)
     const data = await res.json()
 
     return {
