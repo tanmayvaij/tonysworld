@@ -1,0 +1,30 @@
+.BlogCard {
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.BlogCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+.BlogCard img {
+    border-radius: 5px;
+}
+
+.BlogCard div {
+    padding: 20px;
+}
+
+.para {
+    color: rgb(80, 80, 80);
+    padding: 10px 0;
+}
+
+.date{
+    font-weight: bold;
+}

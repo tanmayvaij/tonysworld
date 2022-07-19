@@ -1,0 +1,22 @@
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: calc( 100vh - 140px );
+}
+
+.About > * {
+    margin: 10px;
+}
+
+.About img {
+    border-radius: 5px;
+}
+
+.About p {
+    font-family: 'Dancing Script', cursive;
+    max-width: 800px;
+    font-size: 28px;
+}

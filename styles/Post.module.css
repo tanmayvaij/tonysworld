@@ -1,0 +1,37 @@
+.Post {
+    min-height: calc( 100vh - 140px );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Post img {
+    border-radius: 5px;
+}
+
+.Post > * {
+    padding: 20px 0;
+}
+
+.para{
+    max-width: 700px;
+    padding: 20px 5px;
+    font-size: 17px;
+}
+
+.links > * {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.link1 {
+    background-color: rgb(255, 76, 44);
+}
+
+.link2 {
+    background-color: #0070f3;
+}

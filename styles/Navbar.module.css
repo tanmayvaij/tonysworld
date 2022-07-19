@@ -1,0 +1,30 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.Navbar div {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.Navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Navbar ul li {
+    /* border: 1px solid black; */
+    margin: 0px 10px;
+    padding: 10px 8px;
+    font-size: 17px;
+}
